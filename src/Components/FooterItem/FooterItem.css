@@ -1,0 +1,38 @@
+
+
+.footer-widgets__title{
+    font-size: 1.7rem;
+    font-weight: bold;
+    display: block;
+    margin: 2rem 0;
+    position: relative;
+    z-index: 1;
+}
+.footer-widgets__title::after{
+    position: absolute;
+    content: "";
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: var(--primary-color);
+    border-radius: .7rem;
+    z-index: -1;
+    left: 1rem;
+    top: -.5rem;
+    transform: rotate(45deg);
+    opacity: .3;
+}
+.footer-widgets__text{
+    color: #7d7e7f;
+}
+
+    .footer-widgets__link{
+        
+        margin-top: 1rem;
+        display: block;
+    }
+
+    .newsletter-content{
+        position: relative;
+    }
+
+    

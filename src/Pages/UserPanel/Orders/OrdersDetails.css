@@ -1,0 +1,51 @@
+
+.order__title-content{
+    background-color: rgb(246, 242, 7);
+    padding: .2rem .5rem;
+}
+.order__details{
+    
+    margin: 1rem 0;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.order__content{
+  margin-right: 10rem;
+}
+.order__content-items-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+}
+.order__content-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+
+.submit-btn{
+    background-color: #2774f5;
+    right: 21rem;
+    position: absolute;
+    border-radius: .5rem;
+    margin: 2rem 0;
+    border: none;
+    color: #fff;
+    padding: .5rem 1.5rem;
+}
+
+.order__bill{
+margin: 10rem 0;
+}
+.order__bill-title{
+       margin: 1rem 0;
+    font-size: 3rem;
+    font-weight: 800; 
+}
+
+.order__bill-content__item{
+    margin-top: 1rem;
+}

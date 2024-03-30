@@ -1,0 +1,25 @@
+.login__new-member {
+    background-color: #f0f2f7;
+    margin: 1.5rem 0;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0;
+  }
+  .login__new-member-text {
+    color: #7b868a;
+    font-size: 1.4rem;
+  }
+  .login__new-member-link {
+    background-color: #a8aaaf;
+    color: var(--white-color);
+    font-size: 1.2rem;
+    margin-left: 0.6rem;
+    border-radius: 5px;
+    padding: 0.4rem 0.8rem;
+  }
+  .login__new-member-link:hover {
+    color: var(--white-color);
+  }

@@ -1,0 +1,24 @@
+.about-us__box{
+    background-color: var(--white-color);
+    box-shadow: 0 0 2rem rgba(168, 172, 185, 0.3);
+   border-radius: 1rem;
+   margin: 2rem 0;
+ display: flex;
+ align-items: center;
+ gap: 2rem;
+ padding: 2rem 1.5rem;
+}
+.about-us__icon {
+    color: #666;
+    font-size: 6.5rem;
+  }
+  
+.about-us__box-left{
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+.about-us__box-title{
+    font-weight: bold;
+    font-size: 1.8rem;
+}

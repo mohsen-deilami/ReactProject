@@ -1,0 +1,56 @@
+/* ============================== Content Main Style ============================== */
+.edit {
+    border-right: 2px solid #2bce56;
+    padding-right: 3rem;
+  }
+  .edit__label {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    color: var(--dark-color);
+  }
+  .edit__input {
+    width: 100%;
+    border: none;
+    border: 1px solid #2bce56;
+    border-radius: 0.5rem;
+    font-size: 1.4rem;
+    padding: 0.5rem 1rem;
+    color: #464749;
+  }
+  .edit__help {
+    display: block;
+    font-style: italic;
+    font-weight: bold;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+  }
+  .edit__password {
+    margin-top: 2rem;
+  }
+  .edit__password-title {
+    border-bottom: 2px solid #2bce56;
+    display: block;
+  }
+  .discount__btn {
+    background-color: #2774f5;
+    border: none;
+  
+  
+    padding: 5px 20px;
+
+  
+    margin-top: 2rem;
+  
+    color: var(--white-color);
+    border-radius: 0.3rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 0.7rem 1.3rem;
+    transition: all 400ms ease;
+  }
+  .discount__btn-submit {
+    margin-right: 1rem;
+  }
+  /* ============================== Content Main Style ============================== */
+  

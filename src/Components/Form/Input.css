@@ -1,0 +1,7 @@
+.success{
+border: .2rem solid var(--primary-color) !important;
+}
+.error{
+    
+    border: .2rem solid red !important;
+}

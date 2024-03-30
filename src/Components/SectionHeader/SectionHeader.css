@@ -1,0 +1,47 @@
+.section-header {
+  margin: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section-header__left {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.section-header-title {
+  font-size: 2.3rem;
+  color: #444446;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.section-header-text {
+  color: #9c9c9c;
+  font-size: 1.5rem;
+}
+.section-header__right {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  margin-right: 1rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+.section-header__link {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+.courses-header__link:hover {
+  color: var(--white-color);
+  
+}
+.section-header__icon {
+  margin-right: 0.5rem;
+  font-size: 1.5rem;
+  color: var(--white-color);
+}

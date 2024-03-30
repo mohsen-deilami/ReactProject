@@ -1,0 +1,132 @@
+
+
+  #home .home-title span {
+    font-size: 18px;
+    font-family: "lalezar";
+    font-size: 22px;
+  }
+  #home .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  #home .form .input {
+    margin: 5px 15px;
+  }
+  #home .form .input input {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border-radius: 3px;
+    border: none;
+    border: 1px solid #a6a6a6;
+    padding: 5px 15px;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  #home .form .input input::-webkit-input-placeholder {
+    font-size: 13px;
+  }
+  #home .form .input input:-ms-input-placeholder {
+    font-size: 13px;
+  }
+  #home .form .input input::-ms-input-placeholder {
+    font-size: 13px;
+  }
+  #home .form .input input::placeholder {
+    font-size: 13px;
+  }
+  #home .form .input input:focus {
+    border: 1px solid #99f;
+    -webkit-box-shadow: 0px 0px 5px 0px #b3b3b3;
+    box-shadow: 0px 0px 5px 0px #b3b3b3;
+  }
+  #home .form .input .input-title {
+    font-size: 18px;
+    font-family: "lalezar";
+  }
+  #home .form .bottom-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 5px 15px;
+  }
+  #home .form .bottom-form .sex .input-title {
+    font-size: 18px;
+    font-family: "lalezar";
+  }
+  #home .form .bottom-form .sex .radios {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #home .form .bottom-form .sex .radios div {
+    margin: 0 10px;
+  }
+  #home .form .bottom-form .sex .radios div label {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  #home .form .bottom-form .sex .radios div input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    margin-right: 3px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid #2774f5;
+    width: 15px;
+    height: 15px;
+  }
+  #home .form .bottom-form .sex .radios div input:checked {
+    position: relative;
+  }
+  #home .form .bottom-form .sex .radios div input:checked::before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    width: 9px;
+    height: 9px;
+    background-color: #2774f5;
+    border-radius: 50%;
+  }
+  #home .form .bottom-form .submit-btn {
+    margin-top: 5px;
+  }
+  #home .form .bottom-form .submit-btn input {
+    background-color: #2774f5;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    padding: 5px 20px;
+  }
+
+
+  .category__btns{
+    margin: 7rem 0 4rem 0 !important;
+  }
+  /*# sourceMappingURL=main.css.map */
+  

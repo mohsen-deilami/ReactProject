@@ -1,0 +1,18 @@
+.file{
+    margin-top: 3rem;
+}
+.category-type{
+    margin-top: 4rem !important;
+}
+.course__category-title{
+    margin-right: 1rem;
+}
+.bottom-form__curses{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 5px 15px;
+}
+.condition{
+    margin-top: 3rem;
+}
